@@ -1,2 +1,2 @@
 # XOR-NUMPY
-XOR output prediction using numpy and DL
+XOR output prediction using numpy and DL<br/>
