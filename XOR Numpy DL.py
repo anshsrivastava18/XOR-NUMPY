@@ -40,7 +40,7 @@ def back_prop(X, Y, store):
       
     dZ2 = A2 - Y 
     dw2 = np.dot(dZ2, A1.T) / N 
-    db2 = np.sum(dZ2, axis = 1, keepdims = True) 
+    db2 = np.sum(dZ2, axis = 1, keepdims = True) / N
       
     dA1 = np.dot(w2.T, dZ2) 
     dZ1 = np.multiply(dA1, A1 * (1- A1)) 
