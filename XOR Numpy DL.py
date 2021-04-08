@@ -87,7 +87,7 @@ cost, _, A2 = forward(X, Y, params)
 print(cost)
 prediction = (A2 > 0.5) * 1.0
 # print(A2) 
-print(prediction) 
+print("Predictions are:-",prediction) 
     
 
 
